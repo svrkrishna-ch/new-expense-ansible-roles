@@ -11,8 +11,8 @@
 
 - name: include common role
   include_role:
-  name: common
-  tasks_from: main
+    name: common
+    tasks_from: main
 
 # - name: delete html directory
 #   ansible.builtin.file:
